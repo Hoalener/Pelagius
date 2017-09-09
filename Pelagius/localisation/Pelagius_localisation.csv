@@ -1,0 +1,77 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x;
+
+String_secret_religious_society_pelagian_DuDelaDes;_;des Pélagiens;;;;;;;;;;;;x
+String_Religion_pelagian_Fem;_;pélagienne;;;;;;;;;;;;x
+String_Religion_pelagian_Masc;_;pélagien;;;;;;;;;;;;x
+String_Religion_pelagian_PlFem;_;pélagiennes;;;;;;;;;;;;x
+String_Religion_pelagian_PlMasc;_;pélagiens;;;;;;;;;;;;x
+
+secretly_pelagian;Secretly Pelagian;Secrètement de foi pélagienne;;;;;;;;;;;;x
+secretly_pelagian_desc;This character practices Pelagianism in secret.;Ce personnage pratique le pélagianisme en secret.;;;;;;;;;;;;x
+
+secret_religious_society_pelagian_currency;Devotion;Dévotion;;;;;;;;;;;;x
+
+secret_religious_society_pelagian_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à rassembler davantage de personnes en son sein.;;;;;;;;;;;;x
+
+pelagian;Pelagian;pélagienne;;;;;;;;;;;;x
+
+pelagian_DESC;The Breton monk Pelagius insisted on man's free will and the non necessary characteristic of divine grace to reach salvation. Denying the original sin, his doctrine was fought by Augustin of Hippone and declared heretic in 418. However it will continue to feed theological debates for many centuries.\n\nIf the Pentarchy is restored and Pelagianism becomes mainstream, the Great Schism could be mended. Pelagian court chaplains and patriarchs should be bishops or monks.\n;Le moine breton Pélage insistait sur le libre-arbitre de l'homme et le caractère non nécessaire de la grâce divine pour atteindre le salut. Niant le péché originel, sa doctrine fut combattue par Augustin d'Hippone et déclarée hérétique en 418. Elle continuera cependant d'alimenter les débats théologiques pendant de nombreux siècles.\n\nSi la Pentarchie est restaurée et que le pélagianisme devient majoritaire, le Grand Schisme pourrait prendre fin. Les chapelains et patriarches pélagiens doivent être évêques ou moines.\n;;;;;;;;;;;;x
+
+secret_religious_society_pelagian_rank_1_female;Faithful;Fidèle;;;;;;;;;;;;x
+secret_religious_society_pelagian_rank_2_female;Adherent;Adhérente;;;;;;;;;;;;x
+secret_religious_society_pelagian_rank_3_female;Preacher;Prêcheuse;;;;;;;;;;;;x
+secret_religious_society_pelagian_rank_4_female;Herald;Messagère;;;;;;;;;;;;x
+secret_religious_society_pelagian_rank_1_male;Faithful;Fidèle;;;;;;;;;;;;x
+secret_religious_society_pelagian_rank_2_male;Adherent;Adhérent;;;;;;;;;;;;x
+secret_religious_society_pelagian_rank_3_male;Preacher;Prêcheur;;;;;;;;;;;;x
+secret_religious_society_pelagian_rank_4_male;Herald;Messager;;;;;;;;;;;;x
+
+secret_religious_society_pelagian;the Pelagian Faithful;les Pélagiens;;;;;;;;;;;;x
+secret_religious_society_pelagian_desc;The Breton monk Pelagius insisted on man's free will and the non necessary characteristic of divine grace to reach salvation. Denying the original sin, his doctrine was fought by Augustin of Hippone and declared heretic in 418. However it will continue to feed theological debates for many centuries.;Le moine breton Pélage insistait sur le libre-arbitre de l'homme et le caractère non nécessaire de la grâce divine pour atteindre le salut. Niant le péché originel, sa doctrine fut combattue par Augustin d'Hippone et déclarée hérétique en 418. Elle continuera cependant d'alimenter les débats théologiques pendant de nombreux siècles.;;;;;;;;;;;;x
+
+String_Pelagian;Pelagian;pélagien;;;;;;;;;;;;x
+
+secret_pelagian_community;Secret Pelagian Community;Communauté pélagienne secrète;;;;;;;;;;;;x
+secret_pelagian_community_desc;In secret, Pelagian faithfuls have organized around a small church community in this province. From there it converts others, grows, and protects their own.;Des fidèles pélagiens ont secrètement formé une communauté dans cette province. Ils y convertissent les autres personnes et protègent les leurs.;;;;;;;;;;;;x
+
+d_pelagian;The Pelagian Papacy;Papauté pélagienne;;;;;;;;;;;;x;
+d_pelagian_adj;Pelagian Papal;papale pélagienne;;;;;;;;;;;;x;
+
+secretly_convert_to_pelagian_holy_site;Secretly Convert to Pelagian;Convertir secrètement à la foi pélagienne;;;;;;;;;;;;x
+secretly_convert_to_pelagian_holy_site_desc;The §YPelagian§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;Les pèlerins §Ypélagiens§! qui affluent vers le site saint en §Y[Root.Location.GetName]§! m'impressionnent avec la profondeur et la passion de leur foi. Je suis tenté[Root.GetNoneE] de me convertir en secret...;;;;;;;;;;;;x
+
+secret_religions_prepare_grounds_pelagian;Prepare Ground;Préparer le terrain;;;;;;;;;;;;x
+secret_religions_prepare_grounds_pelagian_desc;Order a loyal agent to secretly spread our teachings in a target province.;Ordonner à un agent fidèle de répandre secrètement nos enseignements dans une province cible.;;;;;;;;;;;;x
+
+create_pelagian_papacy;Create the Pelagian Papacy;Instaurer la papauté pélagienne;;;;;;;;;;;;x
+create_pelagian_papacy_desc;If I am pious enough and control Rome, I can create a Pelagian Pope to serve as the head of the faith in opposition to the vile Catholic Pope.;Si je fais preuve d'assez de piété et que je contrôle Rome, je pourrais nommer un pape pélagien qui sera le chef d'une foi vertueuse, par opposition au pape catholique corrompu.;;;;;;;;;;;;x
+
+EVTDESCPelagius.0001A;Rome, for centuries the center of Christendom, is in Pelagian hands. This has given me an opportunity to create a Pelagian Papacy, which shall do away with the scandalous display of wealth that the Catholic Papacy has long been guilty of.;Rome, pendant des siècles le centre de la chrétienté, est entre des mains pélagiennes. Cela m'a donné l'occasion de créer une papauté pélagienne, qui abolira l'étalage scandaleux de la richesse dont la papauté catholique est depuis longtemps coupable.;;;;;;;;;;;;x
+EVTDESCPelagius.0001B;Rome, for centuries the center of Christendom, is in Pelagian hands. [From.GetTitledFirstName] has therefore seen fit to create a Pelagian Papacy, claiming it shall do away with the scandalous display of wealth that the Catholic Papacy has long been guilty of.;Rome, pendant des siècles le centre de la chrétienté, est entre des mains pélagiennes. [From.GetTitledFirstName] a donc jugé bon de créer une papauté pélagienne, en prétendant qu'elle abolira l'étalage scandaleux de la richesse dont la papauté catholique a longtemps été coupable.;;;;;;;;;;;;x
+
+restore_pelagian_pope_in_rome;Restore the Papacy in Rome;Restaurer la Papauté à Rome;;;;;;;;;;;;x
+restore_pelagian_pope_in_rome_desc;The Holy Father has lost control of his secular domain, but it is within my power to restore the Eternal City to him!;Le Saint-Père a perdu le contrôle de son domaine séculier, mais il est en notre pouvoir de le rétablir dans la Cité Eternelle ! ;;;;;;;;;;;;x
+
+EVTDESCPelagius.0002A;I have granted Rome to its rightful ruler, so that the Pelagian Pope may lead his Church from accommodations befitting his stature. The Pope shall soon take up his abode in the offices historically occupied by his Catholic predecessors.;J'ai accordé à Rome son souverain légitime, afin que le pape pélagien puisse conduire son Église depuis des logements dignes de sa stature. Le pape s'installera bientôt dans les bureaux historiquement occupés par ses prédécesseurs catholiques.;;;;;;;;;;;;x
+EVTDESCPelagius.0002B;[From.GetTitledFirstName] has granted Rome to its rightful ruler, so that the Pelagian Pope may lead his Church from accommodations befitting his stature. The Pope shall soon take up his abode in the offices historically occupied by his Catholic predecessors.;[From.GetTitledFirstName] a accordé à Rome son souverain légitime, de sorte que le pape pélagien puisse conduire son Église depuis des logements dignes de sa stature. Le pape s'installera bientôt dans les bureaux historiquement occupés par ses prédécesseurs catholiques.;;;;;;;;;;;;x
+
+mend_great_schism_pelagian;Mend the Great Schism;Mettre fin au Grand Schisme;;;;;;;;;;;;x
+mend_great_schism_pelagian_desc;The Great Schism saw the Christian Church divided into two branches, but if all five of the episcopal sees of the Pentarchy could be restored under Roman guidance and the Pelagian faith, there may be a chance to finally reunite Christendom.;L'Église chrétienne s'est vu divisée en deux lignées par le Grand Schisme, mais si la totalité des cinq sièges épiscopaux de la Pentarchie peut être restaurée sous la lumière de Rome et de la foi pélagienne, il y a peut-être une chance de réunifier enfin la chrétienté tout entière;;;;;;;;;;;;x
+mend_the_schism_holder_religion_pelagian;Holder is §YPelagian§! and NOT a heretic\n;Le détenteur est de religion §Ypélagienne§! et pas hérétique\n;;;;;;;;;;;;x
+
+EVTTOOLTIPPelagius.0105;The Great Schism is mended and Christendom reunited.;Le Grand Schisme est terminé et toute la chrétienté est enfin réunifiée.;;;;;;;;;;;;x
+EVTNAMEPelagius.0105;The Great Schism Mended;La Fin du Grand Schisme;;;;;;;;;;;;x
+EVTDESCPelagius.0105;At last the Great Schism between the Western Catholic Church and the Eastern Orthodox Church has been mended. With the spread of Pelagianism and the reunification of the Pentarchy, the Orthodox faith now holds little sway over the people of Europe. There will be those who still cling to it, but they will be few in number and the Pentarchy can once more claim universal rule over all of Christendom.;Enfin, le schisme entre l'Église catholique d'Occident et l'Église orthodoxe d'Orient est terminé. Avec l'expansion du pélagianisme et la réunification de la Pentarchie, la foi orthodoxe n'a plus la même influence sur les peuples d'Europe. Il y aura ceux qui continueront à se rattacher à elle, mais ils seront peu nombreux, et l'autorité légitime de la Pentarchie s'imposera universellement sur l'ensemble de la chrétienté.;;;;;;;;;;;;x
+EVTOPTAPelagius.0105;God be praised!;Dieu soit loué !;;;;;;;;;;;;x
+
+EVTOPTAPelagius.0106;If that's the way the wind is blowing...;Si c'est ainsi que le vent souffle...;;;;;;;;;;;;x
+EVTOPTBPelagius.0106;I will never give up my faith!;Jamais je ne renierai ma foi !;;;;;;;;;;;;x
+
+EVTDESCPelagius.0100;With the city back under Roman guidance, the Patriarchate of Antioch has been properly restored as one of the episcopal sees of the Pentarchy. It was originally founded by Saint Peter the Apostle, who is regarded as the first Pope.;Puisque la cité est de nouveau sous la lumière de Rome, le Patriarcat d'Antioche a solennellement été restauré, devenant l'un des sièges archiépiscopaux de la Pentarchie. Il avait été fondé à l'origine par l'Apôtre Saint Pierre lui-même, lui qui est considéré comme le premier Pape de l'Histoire.;;;;;;;;;;;;x
+EVTOPTAPelagius.0100;God be praised!;Dieu soit loué !;;;;;;;;;;;;x
+EVTDESCPelagius.0101;With the city back under Roman guidance, the Patriarchate of Jerusalem has been properly restored as one of the episcopal sees of the Pentarchy. It was originally founded by Saint James the Just, who was made head of the Church in Jerusalem soon after the death of Jesus.;Puisque la cité est de nouveau sous la lumière de Rome, le Patriarcat de Jérusalem a solennellement été restauré, devenant l'un des sièges archiépiscopaux de la Pentarchie. Il a été fondé à l'origine par Saint Jacques le Juste, nommé à la tête de l'Église de Jérusalem peu de temps après la mort de Jésus.;;;;;;;;;;;;x
+EVTDESCPelagius.0102;With the city back under Roman guidance, the Patriarchate of Alexandria has been properly restored as one of the episcopal sees of the Pentarchy. It was originally founded by Saint Mark the Evangelist, who became Alexandria's first patriarch.;Puisque la cité est de nouveau sous la lumière de Rome, le Patriarcat d'Alexandrie a solennellement été restauré, devenant l'un des sièges archiépiscopaux de la Pentarchie. Il a été fondé à l'origine par Saint Marc l'Évangéliste, qui en devint le premier patriarche.;;;;;;;;;;;;x
+EVTDESCPelagius.0104;With the city back under Roman guidance, the Patriarchate of Byzantion has been properly restored as one of the episcopal sees of the Pentarchy. If all five historical patriarchates are returned to the Pentarchy, the Great Schism may finally be mended.;Puisque la cité est de nouveau sous la lumière de Rome, le Patriarcat de Byzance a solennellement été restauré, devenant l'un des sièges archiépiscopaux de la Pentarchie. Si les cinq patriarcats historiques sont rétablis au sein de la Pentarchie, le Grand Schisme peut peut-être enfin prendre fin.;;;;;;;;;;;;x
+
+
+#xxxxxxxxxxxxxx;eeeeeeeeeeeeeeeeee;fffffffffffffffffffffff;eeeeeeeeeeeeeeeeee;;eeeeeeeeeeeeeeeeee;;;;;;;;;x;

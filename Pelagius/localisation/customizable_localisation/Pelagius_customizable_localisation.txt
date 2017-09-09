@@ -1,0 +1,119 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x;
+
+defined_text = {
+	name = GetTrueReligionAdjective
+
+	text = { 
+		localisation_key = String_Pelagian
+		trigger = { true_religion_pelagian_trigger = yes }
+	}
+}
+
+defined_text = {
+	name = GetTrueReligionAdherent
+
+	text = {
+		localisation_key = String_Pelagian
+		trigger = { true_religion_pelagian_trigger = yes }
+	}
+}
+
+defined_text = {
+	name = GetHighGodDuDelaDes
+	fallback_text = {
+		localisation_key = String_fallback_text_GetHighGodDuDelaDes
+	}
+
+	text = {
+		localisation_key = String_HighGodDuDelaDes_GOD_GOD
+		trigger = { religion = pelagian }
+	}
+}
+
+defined_text = {
+	name = GetHighGodAAux
+	fallback_text = {
+		localisation_key = String_fallback_text_GetHighGodAAux
+	}
+
+	text = {
+		localisation_key = String_HighGodAAux_GOD_GOD
+		trigger = { religion = pelagian }
+	}
+}
+
+defined_text = {
+	name = GetReligionMascFem
+	fallback_text = {
+		localisation_key = String_fallback_text_GetReligionMascFem
+	}
+
+	text = {
+		localisation_key = String_Religion_pelagian_Masc
+		trigger = { is_female = no religion = pelagian }
+	}
+	text = {
+		localisation_key = String_Religion_pelagian_Fem
+		trigger = { is_female = yes religion = pelagian }
+	}
+}
+
+defined_text = {
+	name = GetReligionMascPl
+	fallback_text = {
+		localisation_key = String_fallback_text_GetReligionMascPl
+	}
+
+	text = {
+		localisation_key = String_Religion_pelagian_PlMasc
+		trigger = { religion = pelagian }
+	}
+}
+
+defined_text = {
+	name = GetReligionMasc
+	fallback_text = {
+		localisation_key = String_fallback_text_GetReligionMasc
+	}
+
+	text = {
+		localisation_key = String_Religion_pelagian_Masc
+		trigger = { religion = pelagian }
+	}
+}
+
+defined_text = {
+	name = GetScriptureDuDelaDes
+	fallback_text = {
+		localisation_key = String_fallback_text_GetScriptureDuDelaDes
+	}
+
+	text = {
+		localisation_key = String_ScriptureDuDelaDes_Bible
+		trigger = { religion = pelagian }
+	}
+}
+
+defined_text = {
+	name = GetEvilGodDuDelaDes
+	fallback_text = {
+		localisation_key = String_fallback_text_GetEvilGodDuDelaDes
+	}
+
+	text = {
+		localisation_key = String_GetEvilGodDuDelaDes_THE_DEVIL
+		trigger = { religion = pelagian }
+	}
+}
+
+defined_text = {
+	name = GetSocietyNameDuDelaDes
+	fallback_text = {
+		localisation_key = String_fallback_text_GetSocietyNameDuDelaDes
+	}
+
+	text = {
+		localisation_key = String_secret_religious_society_pelagian_DuDelaDes
+		trigger = { society_member_of = secret_religious_society_pelagian }
+	}
+}

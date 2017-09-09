@@ -1,0 +1,178 @@
+##################################################
+#
+# Event ID Pelagius.0100 - Pelagius.0199 reserved
+#
+##################################################
+
+namespace = Pelagius
+
+### The Pentarchy
+
+# Patriarchate of Antioch
+character_event = {
+	id = Pelagius.0100
+	desc = EVTDESCPelagius.0100
+	picture = GFX_evt_bishop_byzantine
+	
+	ai = no
+	religion = pelagian
+	
+	trigger = {
+		NOT = { has_global_flag = pat_antioch }
+		is_title_active = d_pelagian
+		completely_controls = c_antiocheia
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAPelagius.0100
+		set_global_flag = pat_antioch
+		piety = 100
+	}
+}
+
+# Patriarchate of Jerusalem
+character_event = {
+	id = Pelagius.0101
+	desc = EVTDESCPelagius.0101
+	picture = GFX_evt_bishop_byzantine
+	
+	ai = no
+	religion = pelagian
+	
+	trigger = {
+		NOT = { has_global_flag = pat_jerusalem }
+		is_title_active = d_pelagian
+		completely_controls = c_jerusalem
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAPelagius.0100
+		set_global_flag = pat_jerusalem
+		piety = 100
+	}
+}
+
+# Patriarchate of Alexandria
+character_event = {
+	id = Pelagius.0102
+	desc = EVTDESCPelagius.0102
+	picture = GFX_evt_bishop_byzantine
+	
+	ai = no
+	religion = pelagian
+	
+	trigger = {
+		NOT = { has_global_flag = pat_alexandria }
+		is_title_active = d_pelagian
+		completely_controls = c_alexandria
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAPelagius.0100
+		set_global_flag = pat_alexandria
+		piety = 100
+	}
+}
+
+# Patriarchate of Rome
+# id = Pelagius.0103
+
+# Patriarchate of Byzantion
+character_event = {
+	id = Pelagius.0104
+	desc = EVTDESCPelagius.0104
+	picture = GFX_evt_bishop_byzantine
+	
+	ai = no
+	religion = pelagian
+	
+	trigger = {
+		NOT = { has_global_flag = pat_byzantion }
+		is_title_active = d_pelagian
+		completely_controls = c_byzantion
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAPelagius.0100
+		set_global_flag = pat_byzantion
+		piety = 100
+	}
+}
+
+### The Great Schism Mended
+
+# The Schism Mended
+narrative_event = {
+	id = Pelagius.0105
+	title = EVTNAMEPelagius.0105
+	desc = EVTDESCPelagius.0105
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAPelagius.0105
+
+		set_parent_religion = { religion = orthodox parent = pelagian }
+
+		set_global_flag = schism_mended
+		give_nickname = nick_the_saint
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					religion = orthodox
+					controls_religion = no
+				}
+				narrative_event = { id = Pelagius.0106 }
+			}
+		}
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = Pelagius.0106
+	title = EVTNAMEPelagius.0105
+	desc = EVTDESCPelagius.0105
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTAPelagius.0106
+		ai_chance = { factor = 75 }
+		religion = FROM
+		any_courtier = {
+			limit = {
+				religion = orthodox
+				liege = { character = ROOT }
+			}
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBPelagius.0106
+		ai_chance = { factor = 25 }
+	}
+}

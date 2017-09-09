@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_create_pelagian_papacy"
+		texturefile = "gfx\\interface\\decision_icon_create_fraticelli_papacy.dds"
+	}
+	spriteType = {
+		name = "GFX_restore_pelagian_pope_in_rome"
+		texturefile = "gfx\\interface\\decision_icon_create_fraticelli_papacy.dds"
+	}
+	spriteType = {
+		name = "GFX_mend_great_schism_pelagian"
+		texturefile = "gfx\\interface\\decision_icon_mend_great_schism.dds"
+	}
+}

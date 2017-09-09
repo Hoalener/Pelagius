@@ -1,0 +1,27 @@
+christian = {
+	pelagian = {
+		graphical_culture = westerngfx
+	
+		icon = 1
+		heresy_icon = 6
+		
+		color = { 0.4 0.8 0.9 }
+		parent = catholic
+
+		investiture = no
+		can_have_antipopes = no
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_claim = no
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		
+		autocephaly = yes
+		priests_can_marry = yes
+		max_consorts = 1
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+}

@@ -1,0 +1,107 @@
+##################################################
+#
+# Event ID Pelagius.0001 - Pelagius.0099 reserved
+#
+##################################################
+
+namespace = Pelagius
+
+# Establishing the Pelagian Papacy
+character_event = {
+	id = Pelagius.0001
+	desc = {
+		text = EVTDESCPelagius.0001A
+		trigger = {
+			character = FROM
+		}
+	}
+	desc = {
+		text = EVTDESCPelagius.0001B
+		trigger = {
+			NOT = { character = FROM }
+		}
+	}
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	major = yes
+
+	is_triggered_only = yes
+	major_trigger = {
+		religion_group = christian
+	}
+	
+	only_playable = yes
+	
+	option = {
+		name = EVTOPTA_SOA_4200
+		trigger = {
+			religion = pelagian
+		}
+	}
+	option = {
+		name = EVTOPTB_SOA_4200
+		trigger = {
+			religion = catholic
+		}
+	}
+	option = {
+		name = EVTOPTC_SOA_4200
+		trigger = {
+			NOR = {
+				religion = pelagian
+				religion = catholic
+			}
+		}
+	}
+}
+
+# Restore the Pelagian Pope in Rome
+character_event = {
+	id = Pelagius.0002
+	desc = {
+		text = EVTDESCPelagius.0002A
+		trigger = {
+			character = FROM
+		}
+	}
+	desc = {
+		text = EVTDESCPelagius.0002B
+		trigger = {
+			NOT = { character = FROM }
+		}
+	}
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	
+	major = yes
+	
+	is_triggered_only = yes
+	major_trigger = {
+		religion_group = christian
+	}
+	
+	only_playable = yes
+	
+	option = {
+		name = EVTOPTA_SOA_4200
+		trigger = {
+			religion = pelagian
+		}
+	}
+	option = {
+		name = EVTOPTB_SOA_4200
+		trigger = {
+			religion = catholic
+		}
+	}
+	option = {
+		name = EVTOPTC_SOA_4200
+		trigger = {
+			NOR = {
+				religion = pelagian
+				religion = catholic
+			}
+		}
+	}
+}
