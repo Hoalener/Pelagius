@@ -8,3 +8,5 @@ Since Pelagianism predates all other catholic heresies in CK2, it is possible to
 
 Languages : English and French
 Note : version 1.0 for CK2 version 2.7.2.0
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=955135582
