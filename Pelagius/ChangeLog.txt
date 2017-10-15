@@ -1,0 +1,11 @@
+
+v1.1 for CK2 v2.7.2.0
+---------------------
+
+- Pelagian rulers will lose piety every month while attacking a fellow pelagian
+- Uncle/niece and aunt/nephew marriages are no longer allowed for pelagian characters
+- The HRE can now be formed by a pelagian ruler through decision
+- Holy orders decisions will now function normally when Pelagianism becomes mainstream
+- Pelagian characters can now join the Benedictine order as other catholic heresies
+
+RELEASE
