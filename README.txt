@@ -9,6 +9,6 @@ If the Pentarchy is restored and Pelagianism becomes mainstream, the Great Schis
 Since Pelagianism predates all other catholic heresies in CK2, it is possible to convert from any catholic/pelagian holy site.
 
 Languages : English and French
-Note : version 1.1 for CK2 version 2.7.2.0
+Note : version 1.1.1 for CK2 version 2.7.2.0
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=955135582
