@@ -1,3 +1,7 @@
+v1.1.1 for CK2 v2.7.2.0
+---------------------
+
+- There will be no more 2 Benedictine orders
 
 v1.1 for CK2 v2.7.2.0
 ---------------------
